@@ -1,8 +1,9 @@
+//testing code
 pragma solidity ^0.8.18;
 // SPDX-License-Identifier: MIT
-import '@openzeppelin/contracts/security/ReentrancyGuard.sol';
 
-contract Mining is ReentrancyGuard {
+
+contract Mining {
 
     address public addressB;
     address public addressC;
@@ -41,4 +42,4 @@ contract Mining is ReentrancyGuard {
 
 
 
-//https://pegasus.compverse.io/address/0x93AB88b5e420c3A81F7FAdaA7AC706080127E028
+

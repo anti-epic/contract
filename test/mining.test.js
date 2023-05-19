@@ -46,7 +46,7 @@ describe('Mining', () => {
 
 
     it('sends the correct amount of rewards to each address', async () => {
-        const rewardAmount = web3.utils.toWei('.01', 'ether');
+        const rewardAmount = web3.utils.toWei('.02', 'ether');
         const initialBalanceB = await web3.eth.getBalance(accounts[0]);
         const initialBalanceC = await web3.eth.getBalance(accounts[1]);
         const initialBalanceD = await web3.eth.getBalance(accounts[2]);

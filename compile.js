@@ -24,5 +24,4 @@ var input = {
     }
 };
 const compiledData = JSON.parse(solc.compile(JSON.stringify(input)));
-console.log(compiledData)
 module.exports = compiledData.contracts['mining.sol'].Mining
