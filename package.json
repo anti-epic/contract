@@ -1,0 +1,30 @@
+{
+  "name": "solidity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anti-epic/solidity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anti-epic/solidity/issues"
+  },
+  "homepage": "https://github.com/anti-epic/solidity#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.3",
+    "@truffle/hdwallet-provider": "^2.1.11",
+    "ganache": "^7.8.0",
+    "ganache-cli": "^6.12.2",
+    "install": "^0.13.0",
+    "mocha": "^10.2.0",
+    "npm": "^9.6.7",
+    "solc": "^0.8.20",
+    "web3": "^1.10.0"
+  }
+}
