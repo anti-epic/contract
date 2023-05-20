@@ -39,7 +39,3 @@ contract Mining {
         _;
     }
 }
-
-
-
-
